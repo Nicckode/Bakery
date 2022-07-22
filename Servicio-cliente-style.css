@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 250px;
+    padding-right: 350px;
+}
+
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(190, 162, 0);
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 31px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+#menu ul li a:hover{
+    transition: all 1s;
+    background-color: salmon;
+}
+
+.item-r{
+    float: right;
+}

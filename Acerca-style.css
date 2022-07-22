@@ -1,0 +1,60 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/2014693/pexels-photo-2014693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: 300px;
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+.mision_vision{
+    font-family: 'Segoe UI', Tahoma;
+    background-color: rgba(255, 68, 0, 0.568);
+    padding-left: 20px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(80, 36, 0, 0.76);
+    position: sticky;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 14.5px;
+    text-decoration: none;
+    font-size: 23px;
+    transition: all 1s;
+}
+
+#menu ul li a:hover{
+    transition: all 1s;
+    background-image: url(Hamburguesa-galleta-fondo.jpeg);
+    color: darkblue;
+    font-size: 27px;
+}
+
+.item-r{
+    float: right;
+}
+
+.mision_p{
+    background-color: rgba(255, 230, 0, 0.445);
+}
